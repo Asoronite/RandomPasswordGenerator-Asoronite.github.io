@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(52, 53, 58);
+}
+#div-top{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 150px;
+}
+#password{
+  
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 2rem;
+}
+#copy{
+  color: antiquewhite;
+  scale: 2;
+  margin-left: 45px;
+  margin-top: 15px;
+
+}
+#btn{
+  display: flex;
+  margin: auto;
+  margin-top: 25px;
+  color: antiquewhite;
+  border-color: antiquewhite;
+  background-color:rgb(52, 53, 58) ;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#copied{
+  
+  visibility: hidden;
+  border: 1px solid antiquewhite;
+  color: antiquewhite;
+  font-size: 12px;
+  width: 108px;
+  margin:auto;
+  margin-top: 25px;
+padding: 3px;
+
+
+
+
+}
